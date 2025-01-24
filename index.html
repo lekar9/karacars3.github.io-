@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karacars</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="verhpanel">
+    <div class="head">
+        <img class="m_logo" src="img/main_logo_obrez.png" alt="logo">
+    </div>
+    <nav>
+        <ul style="font-size: 35px;" class="menu">
+            <li class="dropdown"><a href="katalog.html">Автопарк</a>
+                <ul class="dropdown-content">
+                    <li style="padding-left: 25px; padding-right: 25px;"><a href="katalog.html">Внедорожники</a></li>
+                    <li style="padding-left: 25px; padding-right: 25px;"><a href="katalog.html">Спорткары</a></li>
+                    <li style="padding-left: 25px; padding-right: 25px;"><a href="katalog.html">Бизнес</a></li>
+                    <li style="padding-left: 25px; padding-right: 25px;"><a href="katalog.html">Комфорт</a></li>
+                </ul>
+            </li>
+            <li style="padding-left: 300px;"><a href="o_nas.html">О нас</a></li>
+        </ul>
+    </nav>
+    <div class="divflagi">
+        <img class="flagi" src="img/flag_15reg.png" alt="north_ossetia">
+        <img class="flagi" src="img/flag_rus.png" alt="russia">
+    </div>
+    </div>
+    <div class="seredina">
+        <div class="vvedenie">
+            <p style="padding-top: 30px;">Аренда премиальных автомобилей</p>
+            <p>Более 10000 клиентов</p>
+            <p style="padding-bottom: 360px;">95% положительных отзывов</p>
+        </div>
+        <p class="podpisi" style="margin-top: 30px; padding-top: 20px; padding-left: 40px; margin-bottom: 0px; font-size: 30px;">Внедорожники</p>
+        <div class="catalogvned">
+                <div class="item" onclick="openOrderMenu('Mersedes GLE Coupe AMG 63s', 70000)">
+                    <img class="vned1" src="img/imgvned/mersedesglecoupeamg63.jpg" alt="Mersedes GLE Coupe AMG 63s">
+                    <p class="podpisi">Mersedes GLE Coupe AMG 63s 70k/d</p>
+                </div>
+                <div class="item" onclick="openOrderMenu('Range Rover Sport', 50000)">
+                    <img class="vned2" src="img/imgvned/rangeroversportblack.jpg" alt="Range Rover Sport">
+                    <p class="podpisi">Range Rover Sport 50k/d</p>
+                </div>
+                <div class="item" onclick="openOrderMenu('Audi RS Q8', 45000)">
+                    <img class="vned3" src="img/imgvned/audirsq8.jpg" alt="Audi RS Q8">
+                    <p class="podpisi">Audi RS Q8 45k/d</p>
+                </div>
+                <div class="item" onclick="openOrderMenu('BMW X6 M', 55000)">
+                    <img class="vned4" src="img/imgvned/bmwx6m.jpeg" alt="BMW X6 M">
+                    <p class="podpisi">BMW X6 M 55k/d</p>
+                </div>
+                <div>
+                    <a href="katalog.html"><p class="prodssilka" style="padding-top: 55px; font-size: 25px;">Все внедорожники →</p></a>
+                </div>
+        </div>
+        <p class="podpisi" style="padding-left: 40px; font-size: 30px; margin: 0px;">Спорткары</p>
+        <div class="catalogsport">
+            <div class="item" onclick="openOrderMenu('Porsche 911 Turbo S', 90000)">
+                <img class="sport1" src="img/imgsport/porsche911turbos.jpg" alt="Porsche 911 Turbo S">
+                <p class="podpisi">Porsche 911 Turbo S 90k/d</p>
+            </div>
+            <div class="item" onclick="openOrderMenu('Ferrari 812 Superfast', 150000)">
+                <img class="sport2" src="img/imgsport/ferrari812superfast.jpg" alt="Range Rover Sport">
+                <p class="podpisi">Ferrari 812 Superfast 150k/d</p>
+            </div>
+            <div class="item" onclick="openOrderMenu('Koenigsegg Agera R', 550000)">
+                <img class="sport3" src="img/imgsport/koenigseggagerar.jpg" alt="Audi RS Q8">
+                <p class="podpisi">Koenigsegg Agera R 550k/d</p>
+            </div>
+            <div class="item" onclick="openOrderMenu('McLaren 720s', 150000)">
+                <img class="sport4" src="img/imgsport/mclaren720s.jpg" alt="BMW X6 M">
+                <p class="podpisi">McLaren 720s 150k/d</p>
+            </div>
+            <div>
+                <a href="katalog.html"><p class="prodssilka" style="padding-top: 55px; font-size: 25px;">Все спорткары →</p></a>
+            </div>
+        </div>
+        <p class="podpisi" style="font-size: 30px; margin: 0px; padding-left: 40px;">Бизнес</p>
+        <div class="catalogbis">
+            <div class="item" onclick="openOrderMenu('Rolls-Royce Spectre', 250000)">
+                <img class="vned1" src="img/imgbis/rollsroycespectre.jpg" alt="Rolls-Royce Spectre">
+                <p class="podpisi">Rolls-Royce Spectre 250k/d</p>
+            </div>
+            <div class="item" onclick="openOrderMenu('Mersedes Benz Maybach s680', 150000)">
+                <img class="vned2" src="img/imgbis/mersedesbenzmaybachs680 (1).jpg" alt="Mersedes Benz Maybach s680">
+                <p class="podpisi">Mersedes Benz Maybach s680 150k/d</p>
+            </div>
+            <div class="item" onclick="openOrderMenu('Rolls-Royce Cullinan', 110000)">
+                <img class="vned3" src="img/imgbis/rollsroyceghost.jpeg" alt="Rolls-Royce Cullinan">
+                <p class="podpisi">Rolls-Royce Cullinan 110k/d</p>
+            </div>
+            <div class="item" onclick="openOrderMenu('Rolls-Royce Ghost', 90000)">
+                <img class="vned4" src="img/imgbis/rollsroycecullinan.jpg" alt="Rolls-Royce Ghost">
+                <p class="podpisi">Rolls-Royce Ghost 90k/d</p>
+            </div>
+            <div>
+                <a href="katalog.html"><p class="prodssilka" style="padding-top: 55px; font-size: 25px;">Весь бизнес →</p></a>
+            </div>
+        </div>
+        <p class="podpisi" style="font-size: 30px; margin: 0px; padding-left: 40px;">Комфорт</p>
+        <div class="catalogcomf">
+            <div class="item" onclick="openOrderMenu('Audi A5 45 TFSI', 10000)">
+                <img class="vned1" src="img/imgkomf/audia545tfsi.jpg" alt="Audi A5 45 TFSI">
+                <p class="podpisi">Audi A5 45 TFSI 10k/d</p>
+            </div>
+            <div class="item" onclick="openOrderMenu('BMW 530', 15000)">
+                <img class="vned2" src="img/imgkomf/bmw530.jpg" alt="BMW 530">
+                <p class="podpisi">BMW 530 15k/d</p>
+            </div>
+            <div class="item" onclick="openOrderMenu('Genesis G70', 10000)">
+                <img class="vned3" src="img/imgkomf/genesisg70.jpg" alt="Genesis G70">
+                <p class="podpisi">Genesis G70 10k/d</p>
+            </div>
+            <div class="item" onclick="openOrderMenu('Kia K8', 15000)">
+                <img class="vned4" src="img/imgkomf/kiak8.jpg" alt="Kia K8">
+                <p class="podpisi">Kia K8 15k/d</p>
+            </div>
+            <div>
+                <a href="katalog.html"><p class="prodssilka" style="padding-top: 55px; font-size: 25px;">Весь комфорт →</p></a>
+            </div>
+        </div>
+        <div id="orderMenu" class="order-menu">
+            <div class="order-menu-content">
+                <span class="close" onclick="closeOrderMenu()">&times;</span>
+                <h2>Заказ товара</h2>
+                <p id="orderItem">Вы выбрали: </p>
+                <p>Цена: <span id="itemPrice">0</span>₽ в день</p>
+                <input style="color: rgba(255, 255, 255, 0.726); background-color: black; border: 1px solid rgba(255, 255, 255, 0.726); border-radius: 10%;" type="number" id="itemQuantity" placeholder="Количество" min="1" value="1" onchange="calculateTotal()">
+                <p>Общая стоимость: <span id="totalPrice">0</span>₽</p>
+                <input style="color: rgba(255, 255, 255, 0.726); background-color: black; border: 1px solid rgba(255, 255, 255, 0.726); border-radius: 10%;" type="text" placeholder="Ваше имя">
+                <input style="color: rgba(255, 255, 255, 0.726); background-color: black; border: 1px solid rgba(255, 255, 255, 0.726); border-radius: 10%;" type="text" placeholder="Ваш телефон">
+                <button style="color: rgba(255, 255, 255, 0.726); background-color: black; border: 1px solid rgba(255, 255, 255, 0.726); border-radius: 10%;" onclick="submitOrder()">Оформить заказ</button>
+            </div>
+        </div>
+    </div>
+    <div class="nizhpanel">
+        <ul class="nizhspis">
+            <li><img class="nizhicon" src="img/phone2.svg" alt=""></li>
+            <li style="padding-right: 1%;">+79899623781</li>
+            <li><img class="nizhicon" src="img/mesto.svg" alt=""></li>
+            <li style="padding-right: 1%;">г. Москва Верхняя аллея 1</li>
+            <li><img class="nizhicon" src="img/mesto.svg" alt=""></li>
+            <li style="padding-right: 1%;">г. Владикавказ Московская 56</li>
+            <li><img class="nizhicon" src="img/mail.svg" alt=""></li>
+            <li>tretsonz@mail.ru</li>
+        </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

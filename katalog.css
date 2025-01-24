@@ -1,0 +1,189 @@
+body {
+    background-color: black;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(img/luxa.org-opacity-changed-._backeditedtwicetuman.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+.head {
+    background-color: black;
+    display: inline-flex;
+    width: 100%;
+}
+.m_logo {
+    height: 100px;
+}
+.menu {
+    list-style-type: none;
+    text-align: center;
+    margin-top: -85px;
+    margin-left: 200px;
+}
+.menu > li {
+    display: inline;
+    position: relative;
+    margin: 0 20px;
+    color: rgb(115, 115, 115);
+}
+.menu > li:hover {
+    cursor: pointer;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.3s;
+    margin-top: 25px;
+    margin-left: 440px;
+}
+.dropdown-content.show {
+    display: block;
+    opacity: 1;
+}
+.dropdown-content li {
+    color: rgb(115, 115, 115);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-left: -40px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content li:hover {
+    background-color: rgb(50, 50, 50);
+}
+.flagi {
+    width: 40%;
+}
+.divflagi {
+    margin-top: -85px;
+    margin-left: 93%;
+}
+a {
+    text-decoration: none;
+    color: rgb(115, 115, 115)
+}
+.nizhpanel {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    color: rgb(115, 115, 115);
+    text-align: center;
+    padding: 10px 0;
+}
+.nizhspis li {
+    display: inline;
+}
+.nizhicon {
+    height: 20px;
+}
+.catalogvned1 {
+    gap: 20px;
+    display: flex;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.catalogvned2 {
+    gap: 20px;
+    display: flex;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.catalogvned3 {
+    gap: 20px;
+    display: flex;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.catalogsport1 {
+    gap: 20px;
+    display: flex;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.catalogsport2 {
+    gap: 20px;
+    display: flex;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.catalogbis1 {
+    gap: 20px;
+    display: flex;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.catalogbis2 {
+    gap: 20px;
+    display: flex;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.catalogcomf1 {
+    gap: 20px;
+    display: flex;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-bottom: 100px;
+}
+.catalogcomf2 {
+    gap: 20px;
+    display: flex;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-bottom: 100px;
+}
+.item {
+    cursor: pointer;
+    text-align: center;
+}
+.item img {
+    width: 355px;
+    height: 200px;
+    border: 3px solid #000;
+}
+.order-menu {
+    color: rgba(255, 255, 255, 0.726);
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.order-menu-content {
+    font-weight: 100;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 2px solid rgba(115, 115, 115, 0.7);
+    border-radius: 10%;
+    color: rgba(255, 255, 255, 0.726);
+    background: black;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    display: inline-block;
+}
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.podpisi {
+    color: rgba(255, 255, 255, 0.726);
+}
+.prodssilka {
+    color: rgba(255, 255, 255, 0.726);
+}
